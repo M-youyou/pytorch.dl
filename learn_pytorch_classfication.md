@@ -90,4 +90,4 @@
 	
 	plt.ioff()  # 停止画图
 	plt.show()
-## 完整代码参见[test_classfication.py]() ##
+## 完整代码参见[test_classfication.py](https://github.com/M-youyou/pytorch.dl/blob/master/test_classfication.py) ##
