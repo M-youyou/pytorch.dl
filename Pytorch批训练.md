@@ -1,7 +1,5 @@
 # Pytorch批训练 #
-Torch提供了一种帮助整理数据结构的功能，叫做DataLoader，能够使用它包装自己的数据，进行批训练。除了DataLoader之外，批训练也有很多其他的方式，如：
-
-- 批训练的方式之一
+Torch提供了一种帮助整理数据结构的功能，叫做DataLoader，能够使用它包装自己的数据，进行批训练。
 
 Dataloader是torch封装好的工具，需要用户将自己的数据转化为Tensor形式，然后再放进这个包装器中，使用DataLoader的好处是能够帮助用户有效迭代数据，举例如下：
 
@@ -64,4 +62,4 @@ Dataloader是torch封装好的工具，需要用户将自己的数据转化为Te
 	Epoch:  2 | Step:  1 | batch x:  [ 1.  5.] | batch y:  [ 10.   6.]
 	"""
 
-以上，训练代码在[batch_train.py]()
+以上，训练代码在[batch_train.py](https://github.com/M-youyou/pytorch.dl/blob/master/batch_train.py.py)
