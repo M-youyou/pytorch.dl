@@ -131,3 +131,5 @@
 
 ## 可视化训练 ##
 为了帮助理解，增加的部分，该部分代码主要用matplotlib、sklearn、T-SNE完成。将高维的 CNN 最后一层输出结果可视化，也就是 CNN forward 代码中的 x = x.view(x.size(0), -1) 这一个结果。
+
+## 以上代码参见[pytorch_cnn.py](https://github.com/M-youyou/pytorch.dl/blob/master/pytorch_cnn.py) ##
