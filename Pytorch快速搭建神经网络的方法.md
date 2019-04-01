@@ -43,4 +43,4 @@ Torch提出了类似于Keras那样快速搭建神经网络的方法，构建神�
 
 我们会发现 net2 多显示了一些内容，这是为什么呢？原来他把激励函数也一同纳入进去了，但是 net1 中，激励函数实际上是在 forward() 功能中才被调用的。这也就说明了，相比 net2，net1 的好处就是, 你可以根据你的个人需要更加个性化你自己的前向传播过程, 比如(RNN)。 不过如果你不需要七七八八的过程，相信 net2 这种形式更适合你。[不太理解两个网络在实际应用时，有什么不同？]
 
-这部分的代码在[build_nn_quickly]()
+这部分的代码在[build_nn_quickly](https://github.com/M-youyou/pytorch.dl/blob/master/build_nn_quickly.py)
