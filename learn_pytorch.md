@@ -85,4 +85,4 @@
 	        plt.text(0.5, 0, 'Loss=%.4f' % loss.data.numpy(), fontdict={'size': 20, 'color':  'red'})
 	        plt.pause(0.1)
 
-### 详细代码训练过程可参见test_regression.py ###
+### 详细代码训练过程可参见[test_regression.py](https://github.com/M-youyou/pytorch.dl/blob/master/test_regression.py) ###
